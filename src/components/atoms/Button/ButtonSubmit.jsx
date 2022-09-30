@@ -5,7 +5,6 @@ import { font, palette } from 'styled-theme'
 import { ifProp } from 'styled-tools'
 
 
-
 const backgroundColor = ({ transparent, disabled }) => transparent ? 'transparent' : "#4A3AFF"
 
 const foregroundColor = ({ transparent, disabled }) => transparent ? palette(disabled ? 2 : 1) : palette('grayscale', 0, true)
