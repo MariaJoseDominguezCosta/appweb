@@ -23,7 +23,7 @@ const Container = () => {
             <option>Debit card</option></Input>
                 <t/>
             <Input type="number" placeholder="Card or account number" required></Input><br/><br />
-        <Button type="submit"className="btn btn-primary" onClick={ alert("Datos guardados, espere al inicio de clases :)")} value="Login">Sign Up</Button>
+        <Button type="submit" value="Login">Sign Up</Button>
             
     </div>
     </>  

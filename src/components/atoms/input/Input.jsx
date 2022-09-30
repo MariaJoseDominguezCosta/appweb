@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import styles from './Input.css';
 
 
-const StyledTextarea = styled.textarea`${styles}`
+const StyledTextarea = styled.text`${styles}`
 const StyledSelect = styled.select`${styles}`
 const StyledInput = styled.input`${styles}`
 
