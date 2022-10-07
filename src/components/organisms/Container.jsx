@@ -7,7 +7,7 @@ import './container.css'
 
 const Container = () => {
   return (
-    <>
+    <form>
     <div className='container'>
             <TitleContainer/><br />
             <Input type="text" id="txtFirstN" placeholder="First Name" required/>  <t/>    
@@ -23,10 +23,10 @@ const Container = () => {
             <option>Debit card</option></Input>
                 <t/>
             <Input type="number" placeholder="Card or account number" required></Input><br/><br />
-        <Button type="submit" value="Login">Sign Up</Button>
+        <Button type="submit" value="Login" onClick={alert("Espere al inicio de clases para iniciar sesion")}><a>Sign Up</a></Button>
             
     </div>
-    </>  
+    </form>  
   )
 }
 
