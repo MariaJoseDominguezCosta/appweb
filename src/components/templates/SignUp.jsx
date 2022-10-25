@@ -5,12 +5,7 @@ const SignUp = () => {
   return (
     <>
     <div>
-       
-    <form id="form_login">
         <Container/>
-    </form>
-
-
     </div>
     </>
   )
